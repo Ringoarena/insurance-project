@@ -4,4 +4,45 @@ body {
 
 .wrapper {
     width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.join div:nth-child(1) {
+    background-color: rgb(177, 239, 255);
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.join div:nth-child(2) {
+    background-color: rgb(255, 136, 0);
+}
+
+.join div:nth-child(3) {
+    background-color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
 }
