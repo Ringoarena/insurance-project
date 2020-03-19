@@ -16,7 +16,8 @@ h3 {
 }
 
 .wrapper {
-    width: 960px;
+    width: 90%;
+    min-width: 960px;
     margin: 0 auto;
 }
 
@@ -32,7 +33,6 @@ h3 {
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px;
 }
 
 .banner > div {
@@ -97,17 +97,22 @@ nav li {
 
 nav li a {
     text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.current {
+    color: black;
 }
 
 .safety {
     background-color:darkgrey;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 525px;
 }
 
 .safety div {
     padding: 100px;
+    padding-bottom: 200px;
 }
 
 .safety h2 {
@@ -212,7 +217,7 @@ nav li a {
 
 footer {
     background-color: gray;
-    height: 320px;
+    padding-bottom: 150px;
 }
 
 footer a {
@@ -222,6 +227,7 @@ footer a {
     height: 42px;
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 .current {
