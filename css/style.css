@@ -38,6 +38,11 @@ h2 {
     background-position: bottom right;
 }
 
+.covered > div {
+    width: 50%;
+    margin-bottom: 120px;
+}
+
 .offer {
     background-color: darkorange;
     grid-column: 2/3;
@@ -50,10 +55,7 @@ h2 {
     grid-row: 2/3;
 }
 
-.intro {
-    width: 50%;
-    margin-bottom: 120px;
-}
+
 
 nav {
     display: flex;
@@ -74,27 +76,31 @@ nav li a {
     text-decoration: none;
 }
 
-div.safety {
+.safety {
     background-color:darkgrey;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 425px;
+    grid-template-rows: 525px;
 }
 
-div.about {
+.safety div {
+    padding: 100px;
+}
+
+.about {
     background-color: orange;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-div.about .cards {
+.about .cards {
     display: flex;
     justify-content: space-between;
     width: 75%;
 }
 
-div.card {
+.card {
     background-color: white;
     width: 25%;
     display: flex;
@@ -102,7 +108,6 @@ div.card {
     align-items: center;
     position: relative;
     bottom: 135px;
-    
 }
 
 div.about > p {
