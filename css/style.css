@@ -11,6 +11,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    margin: 0;
+}
+
 .wrapper {
     width: 960px;
     margin: 0 auto;
@@ -39,8 +43,8 @@ h2 {
 }
 
 .covered > div {
-    width: 50%;
-    margin-bottom: 120px;
+    padding: 100px;
+    padding-bottom: 200px;
 }
 
 .offer {
@@ -94,7 +98,7 @@ nav li a {
     align-items: center;
 }
 
-.about .cards {
+.cards {
     display: flex;
     justify-content: space-between;
     width: 75%;
@@ -110,25 +114,43 @@ nav li a {
     bottom: 135px;
 }
 
-div.about > p {
+.about > p {
     width: 50%;
 }
 
-div.how {
+.how {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 320px);
 }
 
-div.how div:nth-child(1) {
-    background-color: lightblue;
+.how > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-div.how div:nth-child(even) {
+.how > div h3 {
+    align-self: flex-start;
+}
+
+.how > div p {
+    max-width: 180px;
+}
+
+.how div:nth-child(1) {
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.how div:nth-child(even) {
     background-color: white;
 }
 
-div.how div:nth-child(5) {
+.how div:nth-child(5) {
     background-color: darkorange;
 }
 
