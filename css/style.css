@@ -51,6 +51,10 @@ h3 {
     background-position: bottom right;
 }
 
+.covered em {
+    color: white;
+}
+
 .covered > div {
     padding: 100px;
     padding-bottom: 200px;
@@ -62,13 +66,19 @@ h3 {
     grid-row: 1/2;
 }
 
+.offer h2 {
+    color: white;
+}
+
 .waiting {
     background-color: orange;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 
-
+.waiting h2 {
+    color: white;
+}
 
 nav {
     display: flex;
@@ -98,6 +108,10 @@ nav li a {
 
 .safety div {
     padding: 100px;
+}
+
+.safety h2 {
+    color: white;
 }
 
 .about {
